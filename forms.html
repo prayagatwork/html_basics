@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+</head>
+<body>
+    
+    <!-- here we have basic form tag to make a box of form
+    then inside it we have input tag which has different types of input things like 
+    radio button check box text fiel and etc..
+    then we have label tag which provide label to the fields 
+    it has create label screen reader and for tag 
+    where for tag have the same id to the input tag -->
+    <!-- label ka for and input ka id bhai bhai  -->
+    <form>
+        <label for="email">EMAIL</label>
+        <input type="text" id="email"></input>
+        <br/>
+        <br/>
+        <label for="pass">PASSWORD</label>
+        <input type="text" id="pass"></input>
+        <br/>
+        <br/>
+        <input type="submit" value="Submit"></input>
+    </form>
+
+    <br>
+    <br>
+    <!-- placeolder attrubute is for that faded text used in input  -->
+    <!-- we are also learing anout different input type  -->
+    <fieldset>
+        <legend>this is my second</legend>
+            <form>
+        <label for="dates">Choose a Date: </label>
+        <input type="date" id="dates">
+
+        <br>
+        <label for="menu">Choose a Menu: </label>
+        <select name="dishes" id="menu">
+            <option value="maggi">Maggi</option>
+            <option value="coffee">Coffee</option>
+            <option value="Cola">Cola</option>
+        </select>
+
+        <br>
+        <button>mai hu button</button>
+
+        <br>
+        <label for="info">pls enter your info</label>
+        <textarea name="info" id="info" cols="30" rows="10" placeholder="pls enter your info"></textarea>
+            </form>
+    </fieldset>
+    
+    <!-- we can use fieldset for seggregation of different forms 
+    where we can use legend to heading or give name to our form  -->
+
+</body>
+</html>
